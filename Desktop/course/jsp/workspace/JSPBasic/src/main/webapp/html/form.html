@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<!-- form태그는 사용자가 입력한 값을 서버(우리의 프로젝트로) 전송할 때 사용 -->
+	
+	<h3> 폼 태그 </h3>
+	
+	<form action="">
+		<h3>회원가입 양식</h3>
+		<hr>
+		아이디:<input type="text" size="10" placeholder="8글자" > <br>
+		비밀번호:<input type="password" size="10" placeholder="5글자" > <br>
+		
+		<!-- checkbox,radio버튼은 name속석으로 하나로 묶어줘야 한다 -->
+		
+		관심분야
+		<input type="checkbox" name="inter"> MOVIE
+		<input type="checkbox" name="inter"> ART
+		<input type="checkbox" name="inter"> DANCE		
+		<input type="checkbox" name="inter"> SING
+		
+		<br>
+		
+		전공분야 
+		<input type="radio" name="major">영화학과
+		<input type="radio" name="major">회화과
+		<input type="radio" name="major">연극영화학과
+		<input type="radio" name="major">성악과	
+		<br>
+		
+		지역
+		<select name="region">
+			<option>서울시</option>
+			<option>경기도</option>
+			<option>부산시</option>
+			<option>제주시</option>
+		</select>
+		<br>
+		
+		자신을 소개해보세요!<br>
+		<textarea rows="5" cols="30" > </textarea>
+		
+		<!-- 버튼은 value속성에 값을 지정한다 -->
+		<!-- 버튼형식을 만드는 두 가지 방법 -->
+		<input type="button" value="버어트은">
+		<button type="button">버튼</button>
+		
+		<input type="submit" value="전송하기">
+		<input type="reset" value="초기화">
+		<input type="file" value="파일첨부">
+		
+		<!-- &nbsp;--띄어쓰기 역할하는 키 --> 
+			
+	</form>
+	
+</body>
+</html>
